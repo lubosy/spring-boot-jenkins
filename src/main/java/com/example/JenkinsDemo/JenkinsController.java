@@ -10,4 +10,9 @@ public class JenkinsController {
     public String getText(){
         return "Jenkins CI CD Complete";
     }
+
+    @GetMapping("text")
+    public String getDemo(){
+        return "Jenkins CI CD Demo";
+    }
 }

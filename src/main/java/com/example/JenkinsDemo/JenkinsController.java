@@ -13,6 +13,6 @@ public class JenkinsController {
 
     @GetMapping("text")
     public String getDemo(){
-        return "Jenkins CI CD Demo";
+        return "Jenkins CI CD Demo..";
     }
 }

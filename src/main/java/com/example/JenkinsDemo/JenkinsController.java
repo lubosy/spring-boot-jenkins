@@ -15,4 +15,9 @@ public class JenkinsController {
     public String getDemo(){
         return "Jenkins CI CD Demo..";
     }
+
+    @GetMapping("text/v1/tool")
+    public String getDemo2(){
+        return "Jenkins CI CD Demo 2..";
+    }
 }

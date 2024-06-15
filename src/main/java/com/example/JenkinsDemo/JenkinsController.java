@@ -20,4 +20,10 @@ public class JenkinsController {
     public String getDemo2(){
         return "Jenkins CI CD Demo 2..";
     }
+
+    @GetMapping("deploy/test")
+    public String DeployToUat(){
+        return "Deployment to uat successful..";
+    }
+
 }

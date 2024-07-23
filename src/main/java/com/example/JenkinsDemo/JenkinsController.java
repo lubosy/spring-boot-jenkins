@@ -23,7 +23,7 @@ public class JenkinsController {
 
     @GetMapping("deploy/test")
     public String DeployToUat(){
-        return "Deployment to uat successful..";
+        return "<h1>Deployment to uat successful..</h1>";
     }
 
 }
